@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding: 25px 35px;
+  background-color: #505050;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: lightsteelblue;
+  margin: 0;
+}
+header a {
+  margin: 60px;
+  color: lightsteelblue;
+  text-decoration: none;
+}
+header nav{
+  margin: 7px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 20px;
+
+}
+header nav ul li a:hover {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.title {
+    background-image: url("./images/trees.JPG");
+    padding: 120px;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    color: lightsteelblue;
+}
+.title div {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+.about-me div h2 {
+  padding: 50px 250px 0 0 ;
+  font-size: 40px;
+}
+.work {
+ 
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  
+  
+}
+.project {
+margin: 20px 20px;
+}
+.work div h2 {
+  padding: 50px 250px 0 0;
+  font-size: 40px;
+  
+}
+
+.run-buddy {
+  background-image: url("./images/run-buddy.JPG");
+  background-size: 100%;
+  padding: 75px 150px;
+  border: 10px;
+  border: solid 5px lightsteelblue;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+}
+.work a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+}
+.project-2 {
+  background-image: url("./images/flags.JPG");
+  background-size: 100%;
+  padding: 75px 150px;
+  border: 10px;
+  border: solid 5px lightsteelblue;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+}
+.project-3 {
+  background-image: url("./images/flags.JPG");
+  background-size: 100%;
+  padding: 75px 150px;
+  border: 10px;
+  border: solid 5px lightsteelblue;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+}
+.project-4 {
+  background-image: url("./images/flags.JPG");
+  background-size: 100%;
+  padding: 75px 150px;
+  border: 10px;
+  border: solid 5px lightsteelblue;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+}
+.project-5 {
+  background-image: url("./images/flags.JPG");
+  background-size: 100%;
+  padding: 75px 150px;
+  border: 10px;
+  border: solid 5px lightsteelblue;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+}
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #505050;
+  
+}
+.contact-info ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: lightsteelblue;
+  
+}
+.contact-info ul li{
+  margin: 60px;
+}
+
+
+.contact-info ul li a:hover {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.contact-me div h2 {
+  padding: 50px ;
+  font-size: 40px;
+}
