@@ -19,7 +19,7 @@ function Contact() {
                         <a href="https://github.com/mitchlyon">GitHub</a>
                     </li>
                     <li>
-                        <a href=".../resume2021.pdf" download="Resume">Resume</a>
+                        <a href="./resume2021.pdf" download="MitchellLyon-resume">Resume</a>
                     </li>
                 </ul>
             </div>
